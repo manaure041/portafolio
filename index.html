@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+           id="toggle-icon"
+           src="assets/icons/moon.svg"
+            alt="icon theme"
+          class="toggle-theme__icon"
+          />
+          <p id="toggle-text"
+           class="toggle-theme__text">Dark mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item 
+        colors__item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item
+         colors__item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item 
+        colors__item--purple"></div>
+
+        <div data-color="hsl(12, 84%, 56%)" class="colors__item 
+        colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/profile.jpg" 
+            alt=""/>
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Hectór González</h2>
+            <p class="card__subtitle">Estudiante de Full Stack Python</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+              <a href="mailto:mamaure041@gmail.com">manaure041@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tlf:984898210">+569 84898210</a>
+            </div>
+            <p class="card__text">
+              Soy Hectór González, estudiante en un programa de Full Stack con Python.
+               He adquirido habilidades en tecnologías como HTML, CSS, JavaScript,
+              Django y PostgreSQL. Me apasiona la tecnología y cómo las aplicaciones
+                 web pueden resolver problemas reales.<br>
+                 He desarrollado proyectos prácticos como una aplicación web de postres llamada Onlyflans, 
+                 enfocándome en la autenticación de usuarios y la gestión de datos. Mi objetivo es 
+                 comenzar mi carrera como desarrollador full stack, contribuyendo y aprendiendo en un
+                  entorno profesional.
+            </p>
+          </div>
+        </article>
+        
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/foto_familiar.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title">Paseos Familiares</h3>
+          <p class="card__text">Disfruto de los paseos familiares, compartiendo tiempo de 
+            calidad al aire libre con mis seres queridos. Ya sea explorando la naturaleza,
+             visitando parques, o recorriendo lugares nuevos, estas actividades me permiten
+              relajarme, conectar con mi familia y crear recuerdos inolvidables.Los paseos familiares
+              son una excelente manera de desconectar de la rutina diaria y fortalecer los lazos
+               familiares. Además de ser una actividad divertida, nos permiten descubrir juntos
+                nuevos lugares, aprender mutuamente y disfrutar de momentos de alegría y tranquilidad.</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Meses de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">6</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Python</h2>
+          <small>Meses de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">6</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Fundamentos</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Poo</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">BDR</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Django</h2>
+          <small>Meses de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">6</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Desarrollo</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Acceso de datos</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            
+          </div>
+        </article>
+        
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/DesafioRicomida.png" alt="landing page"
+             class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">Ricomida</h2>
+            <p class="card_text">La página web de "Ricomida" está diseñada con un enfoque
+            en la presentación visual y la usabilidad. Utiliza HTML5 para estructurar el 
+            contenido, como las secciones de recetas, imágenes y formularios de suscripción.
+            El CSS proporciona el estilo, incluyendo colores, tipografía y diseño de columnas
+             para asegurar una experiencia de usuario atractiva y organizada.</p>
+            <p class="card_text">Para mejorar la interactividad y la funcionalidad, se pueden
+            utilizar tecnologías como JavaScript, que podría gestionar eventos de usuario como
+            la suscripción al boletín. Las herramientas de desarrollo web como un editor de texto
+            (ej. Visual Studio Code) y el control de versiones con Git/GitHub facilitan el
+             mantenimiento y la colaboración en el proyecto.</p>
+            <div class="buttons">
+              <a href="https://manaure041.github.io/ricomida/" class="button button--primary">Demo</a>
+              <a href="https://github.com/manaure041/ricomida.git" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/Viajes__Chile.png" alt="landing page"
+             class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Bootstrap</span>
+            </div>
+            <h2 class="card__title">Viajes Chile</h2>
+            <p class="card_text">La página web de "Viajes Chile" presenta un diseño visual
+            atractivo que resalta la belleza natural de Chile, utilizando imágenes impactantes 
+            como telón de fondo. En la parte superior, un encabezado incluye el logo y el nombre
+             del sitio, junto con un menú de navegación sencillo que permite acceder a secciones
+              clave como "Inicio", "Quiénes Somos", "Destacados" y "Contacto".</p>
+            <p class="card_text">El diseño principal de la página se estructura en diferentes 
+            secciones informativas. Una sección de bienvenida presenta un paisaje del desierto
+            de Atacama con llamas en el fondo, seguido de una sección de "¿Quiénes Somos?" con 
+            texto informativo alineado en columnas. Más abajo, se destacan destinos turísticos
+             con imágenes y descripciones breves, y una sección de contacto con un formulario 
+             de envío de mensajes.</p>
+            <div class="buttons">
+              <a href="https://manaure041.github.io/Viajes_Chile/" class="button button--primary">Demo</a>
+              <a href="https://github.com/manaure041/Viajes_Chile.git" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/onlyflans.png" alt="landing page"
+             class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Bootstrap</span>
+              <span class="project__tag">#Python</span>
+              <span class="project__tag">#Django</span>
+            </div>
+            <h2 class="card__title">Onlyflans</h2>
+            <p class="card_text">La página web "OnlyFlans" utiliza un diseño responsivo basado en
+            tecnologías modernas de desarrollo web, como HTML, CSS y JavaScript. Está estructurada
+            para presentar distintos tipos de flanes en un formato de tarjetas visualmente atractivo.
+            El sitio incluye una barra de navegación para acceder a secciones como Inicio, Acerca, 
+            Contacto y una opción para cerrar sesión.</p>
+            <p class="card_text">En cuanto a herramientas de desarrollo, la página web podría estar
+            utilizando frameworks como Bootstrap para la estilización y organización de elementos de
+            la interfaz de usuario. También es posible que se implemente un framework backend como
+            Django para manejar la lógica de servidor, gestión de usuarios y autenticación, lo que 
+            facilita la creación y mantenimiento de sesiones de usuario.</p>
+            <div class="buttons">
+              <a href="https://github.com/manaure041/onlyflans.git" class="button button--primary">Demo</a>
+              <a href="https://github.com/manaure041/onlyflans.git" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        
+
+      </section>
+
+    </main>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
